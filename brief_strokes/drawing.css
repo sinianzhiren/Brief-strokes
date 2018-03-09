@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+
+/*圆*/
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    background-color: #EDF4E9;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #999999;
+}
+
+
+/*左边的眼睛*/
+
+.eyes-left {
+    width: 40px;
+    height: 60px;
+    border: 2px solid #333333;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 77px;
+    left: 76px;
+    background-color: #000000;
+}
+
+
+/*右边的眼睛*/
+
+.eyes-right {
+    width: 40px;
+    height: 60px;
+    border: 2px solid #333333;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    left: 182px;
+    top: 77px;
+    background-color: #000000;
+}
+
+
+/*左边的眼睛珠*/
+
+.eyes-left-in {
+    background-color: #ffffff;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/*右边的眼睛珠*/
+
+.eyes-right-in {
+    background-color: #ffffff;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/*左边的脸颊*/
+
+.face-left {
+    width: 40px;
+    height: 20px;
+    background-color: #F5C4C4;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    top: 141px;
+    left: 45px;
+}
+
+
+/*右边的脸颊*/
+
+.face-right {
+    width: 40px;
+    height: 20px;
+    background-color: #F5C4C4;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    top: 141px;
+    left: 215px;
+}
+
+
+/*中间*/
+
+.middle {
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    border-radius: 100%;
+    border: 6px solid #ffa29e;
+}
+
+.mymiddle {
+    width: 100px;
+    height: 123px;
+    position: absolute;
+    top: 150px;
+    left: 122px;
+    overflow: hidden;
+}
+
+.eyes-right-in {
+    position: absolute;
+    -webkit-transform-origin: center center;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-name: rotate2d;
+}
+
+@-webkit-keyframes rotate2d {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0) translateY(0)
+    }
+    25% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(10px) translateY(2px)
+    }
+    50% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0px) translateY(20px)
+    }
+    75% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(5px) translateY(1px)
+    }
+    100% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0px) translateY(0px)
+    }
+}
+
+.eyes-left-in {
+    position: absolute;
+    -webkit-transform-origin: center center;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-name: rotate2d;
+}
+
+@-webkit-keyframes rotate2d {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0) translateY(0)
+    }
+    25% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(10px) translateY(2px)
+    }
+    50% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0px) translateY(20px)
+    }
+    75% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(5px) translateY(1px)
+    }
+    100% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateX(0px) translateY(0px)
+    }
+}
+
+
+/*脚*/
